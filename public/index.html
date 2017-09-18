@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mongo Scraper</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div id = "nav" class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mongo Scraper</a>
+      <ul class="nav navbar-nav navbar-right">
+    <li><a href="#">Home</a></li>
+    <li><link>Saved articles</link></li>
+      </li>
+  </ul>
+  </button>
+<ul class="nav navbar-nav navbar-right">
+</li>
+</ul>
+
+</div>
+<button type="button" class="btn btn-Danger">Scrape Articles</button>
+  </nav>
+<!--end navbar-->
+
+<!--h1+h2-->
+<h1>Mongo Scraper</h1>
+<h2>New York Times Edition</h2>
+<!--end h1+h2-->
+
+  <table id="results">
+    <thead>
+      <div id="article">
+      </div>
+    </thead>
+    <tbody>
+      <!-- Results from DB here -->
+    </tbody>
+  </table>
+  <script src="app.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
